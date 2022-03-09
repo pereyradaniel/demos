@@ -754,7 +754,7 @@ ul.social_icons li  a i{
 	position: relative;	
 	margin-top:30px;
 	margin-bottom:30px;
-	background: #272727;
+	background: #000000;
 	text-align: center;
 	cursor: pointer;
 }
@@ -762,8 +762,15 @@ ul.social_icons li  a i{
 .gallery figure img {
 	position: relative;
 	display: block;
-	opacity: 0.8;
+	opacity: 0.6;
+  transition: all 0.2s;
 }
+.gallery figure img:hover {
+	position: relative;
+	display: block;
+	opacity: 1;
+}
+
 
 .gallery figure figcaption {
 	padding: 0;
@@ -785,7 +792,10 @@ ul.social_icons li  a i{
 
 figure.effect-marley figcaption {
 	text-align: right;
+  background-color: rgb(10, 18, 51);
+
 }
+
 
 figure.effect-marley h4,
 figure.effect-marley p {
@@ -793,7 +803,7 @@ figure.effect-marley p {
 	right: 30px;
 	left: 30px;
 	padding: 10px 0;
-  background-color: rgba(14, 26, 77, 0.747);
+  background-color: rgba(10, 18, 51, 0.747);
 }
 
 
